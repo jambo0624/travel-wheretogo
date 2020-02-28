@@ -1,0 +1,128 @@
+{
+  "ret": true,
+  "data": {
+    "city": "北京",
+    "swiperList": [
+      {
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1507/94/6ca52bb1e782ae6c3c891c7aa1dd2594.water.jpg_600x330_1a1f74b3.jpg"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/201405/22/3ae746fe7b5a8a9c118c1b4d95897fa8.jpg_600x330_8dbbbf5d.jpg"
+      },
+      {
+        "id": "0003",
+        "imgUrl": "https://img1.qunarzz.com/sight/p0/1505/6d/6d3f80897e1f1eb1.water.jpg_600x330_0ff9d74a.jpg"
+      },
+      {
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1901/ed/ed4079d797a78d28a3.water.jpg_600x330_020819e2.jpg"
+      }
+    ],
+    "iconList": [
+      {
+        "id": "0001",
+        "imgUrl": "https://picbed.qunarzz.com/01d2f57f920666364197a850dab859a8.png",
+        "desc": "民宿客栈"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "https://picbed.qunarzz.com/83af731055e121a3251690b225327b56.png",
+        "desc": "专车自驾"
+      },
+      {
+        "id": "0003",
+        "imgUrl": "https://picbed.qunarzz.com/5b6737be49ca243072ca614f07803b83.png",
+        "desc": "信用卡"
+      },
+      {
+        "id": "0004",
+        "imgUrl": "https://picbed.qunarzz.com/1e107321f5396ea4994cd832232ecf8a.png",
+        "desc": "旅游团购"
+      },
+      {
+        "id": "0005",
+        "imgUrl": "https://picbed.qunarzz.com/c65b3bb7571a6bd62df669213e44b84d.png",
+        "desc": "一日游"
+      },
+      {
+        "id": "0006",
+        "imgUrl": "https://picbed.qunarzz.com/f6bb08a239ce1b038204120a8d1e4669.png",
+        "desc": "特惠酒店"
+      },
+      {
+        "id": "0007",
+        "imgUrl": "https://picbed.qunarzz.com/3a08f360e958ccb2b947049387873ace.png",
+        "desc": "借钱"
+      },
+      {
+        "id": "0008",
+        "imgUrl": "https://picbed.qunarzz.com/19b4f6d2fabd617789fa5aad65b249da.png",
+        "desc": "白金卡"
+      },
+      {
+        "id": "0009",
+        "imgUrl": "https://picbed.qunarzz.com/799d9d090d1625a854194460c8849fee.png",
+        "desc": "游轮"
+      },
+      {
+        "id": "0010",
+        "imgUrl": "https://picbed.qunarzz.com/25e3b9f17a21a6e0113c57a23ffccde4.png",
+        "desc": "周末短途"
+      }
+    ],
+    "recommendList": [
+      {
+        "id": "0001",
+        "imgUrl": "https://m.tuniucdn.com/filebroker/cdn/online/5b/f7/5bf708b7_w80_h80_c1_t0.jpg",
+        "title": "「双人价格套餐-穿越宋朝-宋城自驾2日游」宿宋城千古情主题酒店（西湖店）游宋城，自选单人套餐/双人套餐/三人套餐，赏千古情贵宾席表演",
+        "desc": "穿越宋朝 主题乐园 宋代cos秀"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "https://m.tuniucdn.com/fb2/t1/G2/M00/1A/22/Cii-T1gz0jqIQUaAAI4afc21-FAAAErZQDif9sAjhqV720_w80_h80_c1_t0.JPG",
+        "title": "「大年初一风景小镇2-4日自驾游」自选行程//温泉套餐，网红度假村，另可加购藏龙百瀑/中国大竹海/竹博园/凯蒂乐园等景区门票",
+        "desc": "大年初一 风景小镇"
+      },
+      {
+        "id": "0003",
+        "imgUrl": "https://m.tuniucdn.com/fb2/t1/G2/M00/59/08/Cii-T1jXXC-IewyVAB_atPIGQbQAAIy2AC-TD4AH9rM332_w80_h80_c1_t0.jpg",
+        "title": "「宋城千古情主题酒店西湖店2-3日自驾游」双人/三人/两大一小/两大两小套餐任选  游宋城 观千古情演出（贵宾席）",
+        "desc": "主题酒店 自驾游 演出"
+      },
+      {
+        "id": "0004",
+        "imgUrl": "https://m.tuniucdn.com/fb2/t1/G5/M00/08/B9/Cii-slsCcKCIXMw8AH_AimZIfeIAAHIeAKauikAf8Ci957_w80_h80_c1_t0.jpg",
+        "title": "「绿城度假酒店2-4日自驾游」可加订中心湖区/森林氧吧/千岛秘境等景区门票",
+        "desc": "绿城度假  天然氧吧"
+      },
+      {
+        "id": "0005",
+        "imgUrl": "https://m.tuniucdn.com/fb2/t1/G5/M00/78/99/Cii-tFqWXsSIX0a-AARmLOJde2oAADvkwOj5jQABGZE891_w80_h80_c1_t0.jpg",
+        "title": "「自驾2日游」宿ClubMedJoyview安吉度假村，体验一个多元文化的特别假期",
+        "desc": "远离市井喧嚣 欣赏自然秀丽  感受竹海翠绿"
+      }
+    ],
+    "weekendList": [
+      {
+          "id": "0001",
+          "imgUrl": "http://img1.qunarzz.com/sight/p0/1803/e2/e29a46fda7841796a3.img.jpg_600x330_05a3ccd5.jpg",
+          "title": "大阳古镇",
+          "desc": "小编为您精挑细选，性价比硬货！"
+      },
+      {
+          "id": "0002",
+        "imgUrl": "https://img1.qunarzz.com/sight/p0/1412/40/a04663db73109dda14b3fd6bc84aae3f.water.jpg_600x330_be6780c0.jpg",
+          "title": "恒山(AAAA景区)",
+          "desc": "恒山手机自动导游14个讲解，不含门票"
+      },
+      {
+          "id": "0003",
+          "imgUrl": "https://img1.qunarzz.com/sight/p0/1505/4a/4a6a13b556fae3db.water.jpg_600x330_f86f48c6.jpg",
+          "title": "大同华严寺(AAAA景区)",
+          "desc": "华严寺景区手机电子语音讲解，含22个景点讲解"
+      }
+    ]
+  }
+}
