@@ -93,7 +93,7 @@ export default {
 @import '~styles/mixins.styl'
 .icons >>> .swiper-container
   height 0
-  padding-bottom 50%
+  padding-bottom 40%
 .icon
   overflow hidden
   position relative
