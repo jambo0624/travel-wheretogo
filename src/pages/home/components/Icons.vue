@@ -26,7 +26,7 @@ export default {
         },
         {
           id: '0002',
-          imgUrl: 'https://picbed.qunarzz.com/01d2f57f920666364197a850dab859a8.png',
+          imgUrl: 'https://picbed.qunarzz.com/83af731055e121a3251690b225327b56.png',
           desc: '专车自驾'
         },
         {
@@ -76,7 +76,7 @@ export default {
     pages () {
       const pages = []
       this.iconList.forEach((item, index) => {
-        const page = Math.floor(index / 8)
+        const page = Math.floor(index / 10)
         if (!pages[page]) {
           pages[page] = []
         }
@@ -97,25 +97,26 @@ export default {
 .icon
   overflow hidden
   position relative
-  width 25%
+  width 20%
   height 0
   float left
-  padding-bottom 25%
+  padding-bottom 20%
   .icon-img
     position absolute
-    top 0
-    left 0
+    top 10%
+    left 10%
     bottom .44rem
     box-sizing border-box
     .icon-img-content
       display block
       margin 0 auto
-      height 100%
+      height 80%
   .icon-desc
     position absolute
     left 0
     right 0
     bottom 0
+    font-size 12px
     line-height .44rem
     height .44rem
     text-align center
