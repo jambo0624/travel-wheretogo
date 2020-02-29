@@ -51,6 +51,8 @@ export default {
       margin-left .2rem
       color #ccc
       position relative
+    .header-input:focus::placeholder
+      color: transparent
     .icon-search
       position absolute
       left 1rem

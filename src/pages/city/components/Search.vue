@@ -85,6 +85,8 @@ export default {
       text-align center
       border-radius .06rem
       color: #666
+    .search-input:focus::placeholder
+      color: transparent
   .search-content
     z-index 1
     overflow hidden
