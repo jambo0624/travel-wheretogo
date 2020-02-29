@@ -32,6 +32,7 @@ export default {
       // this.$store.commit('changeCity', city)
       // 因为有了mapMutations语法糖，👆的代码可以写成👇
       this.changeCity(city)
+      this.keyword = ''
       this.$router.push('/')
     },
     ...mapMutations(['changeCity'])
