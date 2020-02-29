@@ -107,12 +107,11 @@ export default {
   .icon-img
     position absolute
     top 10%
-    left 10%
+    left .4rem
     bottom .44rem
     box-sizing border-box
     .icon-img-content
       display block
-      margin 0 auto
       height 80%
   .icon-desc
     position absolute
