@@ -14,6 +14,7 @@
 
 <script>
 import Bscroll from 'better-scroll'
+import { mapMutations } from 'vuex'
 export default {
   name: 'CitySearch',
   props: {
@@ -28,9 +29,12 @@ export default {
   },
   methods: {
     handleCityClick(city) {
-      this.$store.commit('changeCity', city)
+      // this.$store.commit('changeCity', city)
+      // 因为有了mapMutations语法糖，👆的代码可以写成👇
+      this.changeCity(city)
       this.$router.push('/')
-    }
+    },
+    ...mapMutations(['changeCity'])
   },
   computed: {
     hasNoData() {
