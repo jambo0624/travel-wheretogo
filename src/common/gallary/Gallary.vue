@@ -1,7 +1,7 @@
 <template>
   <div class="container" @click="handleGarraryClick">
     <div class="wrapper">
-      <swiper :options="swiperOption">
+      <swiper :options="swiperOption" v-if="imgs.length">
         <swiper-slide v-for="(item, index) in imgs" :key="index">
           <img class="gallary-img" :src="item" />
         </swiper-slide>
@@ -22,7 +22,6 @@ export default {
       swiperOption: {
         pagination: '.swiper-pagination',
         paginationType: 'fraction',
-        loop: true,
         observeParents: true,
         observer: true
       }
