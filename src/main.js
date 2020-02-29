@@ -9,6 +9,7 @@ import 'styles/iconfont.css'
 import fastclick from 'fastclick'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import 'swiper/dist/css/swiper.css'
+import store from './store/index'
 
 Vue.use(VueAwesomeSwiper)
 
@@ -19,6 +20,7 @@ fastclick.attach(document.body)
 new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>'
 })
