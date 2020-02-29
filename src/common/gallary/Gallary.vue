@@ -2,8 +2,8 @@
   <div class="container" @click="handleGarraryClick">
     <div class="wrapper">
       <swiper :options="swiperOption">
-        <swiper-slide v-for="item in imgs" :key="item.id">
-          <img class="gallary-img" :src="item.imgUrl" />
+        <swiper-slide v-for="(item, index) in imgs" :key="index">
+          <img class="gallary-img" :src="item" />
         </swiper-slide>
         <div class="swiper-pagination" slot="pagination"></div>
       </swiper>
@@ -14,6 +14,9 @@
 <script>
 export default {
   name: 'Gallary',
+  props: {
+    imgs: Array
+  },
   data() {
     return {
       swiperOption: {
@@ -22,27 +25,6 @@ export default {
         loop: true,
         observeParents: true,
         observer: true
-      }
-    }
-  },
-  props: {
-    imgs: {
-      type: Array,
-      default() {
-        return [
-          {
-            id: '0001',
-            imgUrl: 'https://img1.qunarzz.com/vs_ceph_vs_tts/ fafe9394-8e5f-4ca9-b284-0cde9e516723.jpg_r_1280x840x95_cd6f7120.jpg'
-          },
-          {
-            id: '0002',
-            imgUrl: 'https://img1.qunarzz.com/vs_ceph_vs_tts/ 9ef888c0-5965-446b-9a8f-63d1e92f45b1.jpg_r_1280x840x95_cb14b111.jpg'
-          },
-          {
-            id: '0003',
-            imgUrl: 'https://img1.qunarzz.com/vs_ceph_vs_tts/ abfe690d-a57c-4dd3-8e77-f1b0e396775d.jpg_r_1280x840x95_dbc77d7b.jpg'
-          }
-        ]
       }
     }
   },
