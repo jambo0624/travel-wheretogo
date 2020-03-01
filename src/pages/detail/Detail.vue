@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <div class="container">
     <detail-banner :sightName="sightName" :bannerImg="bannerImg"
       :bannerImgs="gallaryImgs"></detail-banner>
     <detail-header></detail-header>
-    <detail-list :list="list"></detail-list>
+    <detail-list></detail-list>
   </div>
 </template>
 
@@ -23,8 +23,7 @@ export default {
     return {
       sightName: '',
       bannerImg: '',
-      gallaryImgs: [],
-      list: []
+      gallaryImgs: []
     }
   },
   methods: {
@@ -40,7 +39,6 @@ export default {
         this.sightName = data.sightName
         this.bannerImg = data.bannerImg
         this.gallaryImgs = data.gallaryImgs
-        this.list = data.categoryList
       }
       console.log(res)
     }
@@ -52,6 +50,7 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-.content
-  height 30rem
+  .container
+    height 100%
+    background #e0e0e0
 </style>

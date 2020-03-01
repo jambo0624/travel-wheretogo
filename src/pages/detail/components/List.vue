@@ -1,39 +1,75 @@
 <template>
-  <div>
-    <div class="item" v-for="item in list" :key="item.id">
-      <div class="item-title border-bottom">
-        <div class="item-title-icon"></div>{{item.title}}
-        <div v-if="item.children">
-          <detail-list :list="item.children"></detail-list>
-        </div>
-      </div>
+  <div class="info">
+    <div class="title">即刻出发-自由行 云南丽江泸沽湖5+N天自由行丨高端客栈&湖景房+鲜花铺床丨网红桃花酿＆下午茶</div>
+    <div class="price border-bottom"><span class="strong"><i>￥</i>2900</span><span class="small">起/人</span></div>
+    <div class="tag-list border-bottom">
+      <span><span>现金红包</span></span>
+      <span><span>专享红包</span></span>
+      <span><span>代金券</span></span>
+      <span><span>优惠促销</span></span>
+    </div>
+    <div class="tips border-bottom">
+      <span><span>早订优惠</span></span>
+      <span class="tiny">提前10天预定减20元</span>
+    </div>
+    <div class="properties">
+      <span><span class="iconfont icon-checkin"></span>接送机</span>
+      <span><span class="iconfont icon-checkin"></span>出行保障</span>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'DetailList',
-  props: {
-    list: Array
-  }
+  name: 'DetailList'
 }
 </script>
 
 <style lang="stylus" scoped>
   @import '~styles/varibles.styl'
-  .item-title
-    line-height .8rem
-    font-size .32rem
-    padding 0 .2rem
-    .item-title-icon
-      position relative
-      left .06rem
-      top .06rem
-      display: inline-block
-      width: .36rem
-      height: .36rem
-      background: url(http://s.qunarzz.com/piao/image/touch/sight/detail.png) 0   -.45rem no-repeat
-      margin-right: .1rem
-      background-size: .4rem 3rem
+  @import '~styles/mixins.styl'
+  .info
+    background #fff
+    border-radius .2rem .2rem 0 0
+    padding .4rem .3rem 0 .3rem
+    position relative
+    top -0.05rem
+    .title
+      font-size .36rem
+      line-height .51rem
+      margin-bottom .1rem
+    .price
+      padding-bottom .2rem
+      .strong
+        font-size .44rem
+        color #ff8300
+        i
+          font-size .3rem
+      .small
+        font-size .24rem
+        color #9e9e9e
+    .tag-list
+      listOneLine()
+      span
+        border .01rem solid #ff8300
+        span
+          color #ff8300
+    .tips
+      listOneLine()
+      span
+        border .01rem solid #ff1200
+        span
+          color #ff1200
+      .tiny
+        border none
+        font-size .24rem
+        color #616161
+    .properties
+      padding .21rem 0
+      span
+        font-size .24rem
+        color #616161
+        .icon-checkin
+          color #1296db
+          margin-right .05rem
 </style>

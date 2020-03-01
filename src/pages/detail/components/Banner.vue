@@ -5,7 +5,7 @@
       <div class="banner-info">
         <div class="banner-title">{{this.sightName}}</div>
         <div class="banner-number">
-          {{this.bannerImgs.length}} <span class="iconfont icon-image"></span>
+          1/{{this.bannerImgs.length}} <span class="iconfont icon-image"></span>
         </div>
       </div>
     </div>
@@ -50,28 +50,26 @@ export default {
   position relative
   overflow hidden
   height 0
-  padding-bottom 64%
+  padding-bottom 65%
   .banner-img
     width 100%
   .banner-info
     position absolute
     left 0
     right 0
-    bottom 0
+    bottom 0.1rem
     line-height .6rem
     display flex
     color #fff
     .banner-title
       flex 1
-      font-size .32rem
-      padding 0 .2rem
+      font-size .28rem
+      padding 0 .3rem
     .banner-number
       height .4rem
       line-height .4rem
       margin-top .1rem
-      padding 0 .4rem
-      border-radius .2rem
-      background rgba(0, 0, 0, 0.8)
+      padding 0 .2rem
       font-size .24rem
       .icon-image
         font-size .24rem
