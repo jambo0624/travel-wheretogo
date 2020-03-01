@@ -4,6 +4,7 @@
       :bannerImgs="gallaryImgs"></detail-banner>
     <detail-header></detail-header>
     <detail-list></detail-list>
+    <detail-declare></detail-declare>
   </div>
 </template>
 
@@ -11,13 +12,15 @@
 import DetailBanner from './components/Banner'
 import DetailHeader from './components/Header'
 import DetailList from './components/List'
+import DetailDeclare from './components/Declare'
 import axios from 'axios'
 export default {
   name: 'Detail',
   components: {
     DetailBanner,
     DetailHeader,
-    DetailList
+    DetailList,
+    DetailDeclare
   },
   data() {
     return {
