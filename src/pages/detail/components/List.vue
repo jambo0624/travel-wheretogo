@@ -1,7 +1,7 @@
 <template>
   <div class="info">
-    <div class="title">即刻出发-自由行 云南丽江泸沽湖5+N天自由行丨高端客栈&湖景房+鲜花铺床丨网红桃花酿＆下午茶</div>
-    <div class="price border-bottom"><span class="strong"><i>￥</i>2900</span><span class="small">起/人</span></div>
+    <div class="title">{{this.list.title}}</div>
+    <div class="price border-bottom"><span class="strong"><i>￥</i>{{this.list.money}}</span><span class="small">起/人</span></div>
     <div class="tag-list border-bottom">
       <span><span>现金红包</span></span>
       <span><span>专享红包</span></span>
@@ -21,7 +21,10 @@
 
 <script>
 export default {
-  name: 'DetailList'
+  name: 'DetailList',
+  props: {
+    list: Object
+  }
 }
 </script>
 
