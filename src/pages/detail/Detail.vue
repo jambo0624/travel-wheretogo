@@ -1,12 +1,12 @@
 <template>
   <div class="container">
     <detail-banner
-      :sightName="sightName[this.routerId]"
-      :bannerImg="bannerImg[this.routerId]"
-      :bannerImgs="gallaryImgs[this.routerId]"
+      :sightName="sightName[this.routerId-1]"
+      :bannerImg="bannerImg[this.routerId-1]"
+      :bannerImgs="gallaryImgs[this.routerId-1]"
     ></detail-banner>
     <detail-header></detail-header>
-    <detail-list :list="list[this.routerId]"></detail-list>
+    <detail-list :list="list[this.routerId-1]"></detail-list>
     <detail-declare :tips="tips"></detail-declare>
   </div>
 </template>
@@ -26,7 +26,7 @@ export default {
   },
   data() {
     return {
-      routerId: 0,
+      routerId: 1,
       sightName: [
         '产品编号 3174821387',
         '产品编号 2498094911',
